@@ -3,3 +3,63 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --dark-mode: #191919;
+    --light-content: #A7A7A7;
+    --gradient-heading: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+}
+
+html {
+    background: var(--dark-mode);
+    font-family: 'Poppins';
+    font-size: 62.5%;
+    /*1rem=10px  and if u do 10/16=62.5% now wheenerever u use 10px or 26px just do 1rem or 2.6rem so that font size has become responsive */
+    font-style: normal;
+}
+
+.container {
+    padding: 12px 3rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.gradient-text {
+    background: var(--gradient-heading);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--light-content);
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+}
+
+@media all and (width<=480px) {
+    .container {
+        padding: 1.2rem 2rem;
+    }
+
+    header {
+        flex-direction: column;
+    }
+}
