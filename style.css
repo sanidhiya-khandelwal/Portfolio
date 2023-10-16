@@ -54,6 +54,19 @@ header nav ul {
     line-height: 2.6rem;
 }
 
+.navlinks a::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    display: block;
+    transition: all 0.2s ease-in;
+}
+
+.navlinks a:hover::after {
+    width: 100%;
+    background: var(--gradient-heading);
+}
+
 @media all and (width<=480px) {
     .container {
         padding: 1.2rem 2rem;
