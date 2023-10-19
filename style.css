@@ -203,3 +203,39 @@ header nav ul {
         height: 35px;
     }
 }
+
+/* techstack */
+
+@media all and (width<=881px) {
+    .techstack-heading {
+        margin-top: 8rem;
+        line-height: 7rem;
+    }
+
+    .techstack-sub-heading {
+        line-height: 5rem;
+    }
+
+}
+
+@media all and (width<=400px) {
+    .techstack-heading {
+        font-size: 4rem;
+        line-height: 6rem;
+
+    }
+
+    .techstack-sub-heading {
+        font-size: 2rem;
+        line-height: 3.2rem;
+    }
+
+    .skills-icons {
+        gap: 8rem;
+    }
+
+    .skills-icons img {
+        height: 9rem;
+        width: 9rem;
+    }
+}
