@@ -322,3 +322,50 @@ header nav ul {
         width: 9rem;
     }
 }
+
+/* projects */
+@media all and (width<=400px) {
+
+    .project-card {
+        width: 293px;
+        height: 530px;
+        border-radius: 20px;
+        background: #363636;
+    }
+
+
+    .project-image img {
+        width: 293px;
+        height: 200px;
+    }
+
+    .project-title {
+        font-size: 2rem;
+    }
+
+    .project-description {
+        font-size: 1.5rem;
+    }
+
+    .project-tech {
+        font-size: 1.5rem;
+    }
+
+    .project-previewcode {
+        display: flex;
+        justify-content: center;
+    }
+
+    .live-preview {
+        padding: 0.4rem 0.5rem;
+    }
+
+    .live-preview a {
+        font-size: 1.5rem;
+    }
+
+    .live-preview a img {
+        height: 2.5rem;
+    }
+
+}
