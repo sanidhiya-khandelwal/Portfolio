@@ -244,6 +244,43 @@ header nav ul {
     height: 3rem;
 }
 
+/* footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    border-top: 1px solid var(--solid-heading);
+    padding: 12px 3rem;
+    margin: 5rem 0 8rem 0;
+
+}
+
+
+footer .navlinks {
+    margin-top: 7rem;
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+    color: var(--light-content);
+    text-align: center;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: 2.6rem;
+}
+
+footer .navlinks li a {
+    font-size: 2.5rem;
+}
+
+footer .social-links {
+    margin-top: 7rem;
+    display: flex;
+    gap: 2.5rem;
+}
+
+
+
 
 /* media queries */
 
