@@ -129,9 +129,6 @@ header nav ul {
     cursor: pointer;
     transform: scale(1.2);
     transition-duration: 0.5s;
-    /* box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
-     */
-    box-shadow: 2px 2px 5px 3px rgb(45, 45, 45);
 }
 
 /* techstack */
@@ -486,5 +483,14 @@ footer .social-links {
 
     footer .navlinks li a {
         font-size: 1.9rem;
+    }
+}
+
+/* scroll to view padding */
+@media all and (width<=780px) {
+
+    #techstack,
+    #projects {
+        padding-top: 0rem;
     }
 }
