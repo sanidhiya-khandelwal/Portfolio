@@ -131,6 +131,20 @@ header nav ul {
     transition-duration: 0.5s;
 }
 
+.resume {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border: 2px solid green;
+    width: 25rem;
+    border-radius: 50px;
+}
+
+
 /* techstack */
 
 #techstack {
@@ -353,6 +367,13 @@ footer .social-links {
     .social-links img {
         width: 35px;
         height: 35px;
+    }
+
+
+    .resume {
+        font-size: 1.8rem;
+        font-weight: 600;
+        width: 18rem;
     }
 }
 
