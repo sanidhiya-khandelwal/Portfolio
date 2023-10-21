@@ -129,9 +129,16 @@ header nav ul {
     cursor: pointer;
     transform: scale(1.2);
     transition-duration: 0.5s;
+    /* box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+     */
+    box-shadow: 2px 2px 5px 3px rgb(45, 45, 45);
 }
 
 /* techstack */
+
+#techstack {
+    padding-top: 3.5rem;
+}
 
 .techstack-heading {
     color: var(--hero-heading);
@@ -166,6 +173,7 @@ header nav ul {
 /* projects */
 
 #projects {
+    padding-top: 3.5rem;
     margin-top: 16rem;
 }
 
